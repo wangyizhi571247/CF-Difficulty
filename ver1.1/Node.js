@@ -4,16 +4,16 @@
 // @version      1.0
 // @description  在Codeforces状态页面显示题目难度
 // @author       wangyizhi571247
-// @match        https://codeforces.com/*
+// @match        https://codeforces.com/problemset/status*
+// @match        https://codeforces.com/submissions/*
+// @match        https://codeforces.com/contest/*/submission/*
+// @match        https://codeforces.com/contest/*/status*
+// @match        https://codeforces.com/contest/*/my*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @connect      codeforces.com
 // ==/UserScript==
-
-// deepseek 写的
-// 但是寄了
-// 然后 wyz 自己花了 30min 修好了/kk
 
 /* update:
  * show difficulty on submission detail page
@@ -172,4 +172,5 @@
     } else {
         init();
     }
+
 })();
