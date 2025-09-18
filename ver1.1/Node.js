@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         CF Difficulty
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  在Codeforces状态页面显示题目难度
 // @author       wangyizhi571247
 // @match        https://codeforces.com/problemset/status*
@@ -174,3 +174,4 @@
     }
 
 })();
+
